@@ -3,7 +3,9 @@ def prime? (i)
      return false 
     elsif i == 2 
       return true 
-    else  2..n/2).none? { |i| n % i == 0}
+    else 
+      (2..i/2).none? do |i| 
+        n % i == 0
        
   
 end
