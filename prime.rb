@@ -17,4 +17,3 @@ def prime? (i)
       y = 6 - y
     end 
 return true
-end
