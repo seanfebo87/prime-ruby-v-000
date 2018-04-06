@@ -16,6 +16,5 @@ def prime? (i)
       x += y
       y = 6 - y
     end 
-  end
 return true
 end
