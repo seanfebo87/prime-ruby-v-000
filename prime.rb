@@ -1,4 +1,5 @@
 def prime? (i)
   if i <= 1 
     return false 
-  elsif 
+  elsif i <= 3
+    return true 
