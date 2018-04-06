@@ -11,7 +11,7 @@ def prime? (i)
   x = 5
   y = 2
   while x * x <= i
-    if n % i == 0:
+    if n % i == 0
       return false
       x += y
       y = 6 - y
