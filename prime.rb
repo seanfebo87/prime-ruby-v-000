@@ -7,4 +7,5 @@ def prime? (i)
       (2..i/2).none? do |n| 
         i % n == 0
     end
+  end
 end
