@@ -8,11 +8,4 @@ def prime? (i)
     elsif i % 3 == 0
         return false
     end
-  x = 5
-  y = 2
-  while x * x <= i
-    if n % i == 0
-      return false
-      x += y
-      y = 6 - y
-    end 
+end
