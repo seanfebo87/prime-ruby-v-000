@@ -1,21 +1,21 @@
 def prime? (i)
    if i == 2
         return true
-    if n == 3
+    elsif i == 3
         return true
-    if n % 2 == 0
+    elsif i % 2 == 0
         return false
-    if n % 3 == 0
+    elsif i % 3 == 0
         return false
-
-    i = 5
-    w = 2
-
-    while i * i <= n:
-        if n % i == 0:
-            return False
-
-        i += w
-        w = 6 - w
-
-    return True
+    end
+  x = 5
+  y = 2
+  while x * x <= i
+    if n % i == 0:
+      return false
+      x += y
+      y = 6 - y
+    end 
+  end
+return true
+end
