@@ -1,2 +1,3 @@
 def prime? (i)
-  if i 
+  if i <= 1 
+    
