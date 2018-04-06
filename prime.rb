@@ -4,8 +4,7 @@ def prime? (i)
     elsif i == 2 
       return true 
     else 
-      (2..i/2).none? do |i| 
-        n % i == 0
-       
-  
+      (2..i/2).none? do |n| 
+        i % n == 0
+    end
 end
