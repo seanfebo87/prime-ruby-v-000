@@ -3,6 +3,8 @@ def prime? (i)
         return true
     elsif i == 3
         return true
+      elsif i <= 0 
+        return false 
     elsif i % 2 == 0
         return false
     elsif i % 3 == 0
