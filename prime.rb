@@ -1,2 +1,2 @@
 prime? (integer)
-  integer.prime
+  integer.prime?
