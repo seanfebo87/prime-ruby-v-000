@@ -1,2 +1,7 @@
 prime? (integer)
-  integer.prime?
+  if integer.prime?
+    return true 
+  else
+    return false 
+  end
+end
