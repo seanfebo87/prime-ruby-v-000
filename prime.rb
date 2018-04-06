@@ -4,3 +4,5 @@ def prime? (i)
   elsif i = 3
     return true 
   elsif i % 2 = 0 || i % 3 = 0 
+    return false 
+  
